@@ -1,0 +1,265 @@
+@CHARSET "UTF-8";
+body {
+	background: #455E58;
+	margin-top: 0px;
+	margin-right: 0px;
+	color: #FFFFFF;
+	font-family: serif;
+}
+
+a, .link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a:hover, .link:hover {
+	text-decoration: none;
+}
+
+.link {
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+}
+
+#logoContainer {
+	float: left;
+	width: 350px;
+	text-align: center;
+}
+
+h1:before {
+	content: url("modern/headerLeftBackground.jpg");
+	margin: 0 0 0 -61px;
+	height: 10px;
+	display: block;
+}
+
+h1 {
+	background-image: url("modern/headerBackground.jpg");
+	margin: 0 0 0 350px;
+	padding: 0 0 0 61px;
+	height: 98px;
+	color: #000000;
+}
+
+#menu:before {
+	content: url("modern/menuLeftBackground.jpg");
+	margin: 0 0 0 -61px;
+	height: 0;
+	display: block;
+}
+
+#menu {
+	background-image: url("modern/menuBackground.jpg");
+	margin: 0 0 0 350px;
+	padding: 0 0 0 61px;
+	height: 32px;
+}
+
+#menu li {
+	background: url("modern/menuSeparator.jpg") no-repeat 100% 0%;
+	display: inline;
+	padding-right: 21px;
+	margin: 0;
+}
+
+#menu li a {
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+#content {
+	clear: both;
+	margin-left: 2em;
+	background: #FFFFFF;
+}
+
+#content, #content a, #content .link {
+	color: #000000;
+}
+
+#content h2:before {
+	content: url("modern/contentLocationLeftBackground.jpg");
+	margin: 0 0 0 -14px;
+	height: 0;
+	display: block;
+}
+
+#content h2 {
+	background: #BCD5CF;
+	margin: 0;
+	padding: 0 0 0 14px;
+	height: 31px;
+}
+
+#content h2 a {
+	text-decoration: none;
+}
+
+#content h2 a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#content .contentBody {
+	padding: 2em 0 2em 2em;
+}
+
+#content h3 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.dataTable {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 0 0 auto;
+}
+
+.dataTable caption {
+	background: #F48A12;
+	font-size: 1.17em;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.dataTable th, .dataTable td {
+	border: 1px solid #FFFFFF;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.dataTable th {
+	background: #BCD5CF;
+}
+
+.dataTable td {
+	text-align: center;
+}
+
+.dataTable td:first-child {
+	text-align: left;
+	width: 50%;
+}
+
+.dataTable col.even {
+	background: #F6F4E7;
+}
+
+.dataTable col.odd {
+	background: #F8F7F2;
+}
+
+.dataTable dt, .userprofile dt {
+	font-weight: bold;
+}
+
+.dataTable dd, .userprofile dd {
+	margin: 0;
+}
+
+.userprofile {
+	padding: 0.5em;
+	padding-left: 5em;
+	border: 1px solid #000000;
+}
+
+.buttonContainer {
+	font-weight: bold;
+}
+
+.fastLoginInf {
+	text-align: center;
+}
+
+.post {
+	border: 1px solid #000000;
+	margin: 0.5em;
+}
+
+hr {
+	clear: both;
+	visibility: hidden;
+}
+
+.post h4 {
+	font-size: 0.8em;
+	font-weight: normal;
+	margin: 0;
+	padding: 0.2em;
+	background: #BCD5CF;
+}
+
+.post .userInfo {
+	float: left;
+	width: 15%;
+	text-align: center;
+}
+
+.post .messageContent {
+	margin-left: 16%;
+}
+
+.post .userInfo dt {
+	font-weight: bold;
+}
+
+.post .userInfo dd {
+	margin: 0;
+}
+
+.avatar img {
+	border: 1px solid #000000;
+}
+
+.fie {
+	color: #FF0000;
+}
+
+#settings {
+	border: 1px solid #FFFFFF;
+	margin: 1em 0.2em 0 0.2em;
+	padding: 0.5em;
+}
+
+#settings h2 {
+	margin: 0;
+	font-size: 1em;
+}
+
+#settings h3 {
+	font-size: 1em;
+	margin-left: 2em;
+	margin-bottom: 0;
+}
+
+#settings ul {
+	padding: 0;
+	margin: 0 2em;
+}
+
+#settings ul li {
+	display: inline;
+}
+
+#newerTopicMessage {
+	display: none;
+	position: fixed;
+	bottom: 1px;
+	right: 1px;
+	border: 1px solid #000000;
+	padding: 0.5em;
+	background: #FFFFE1;
+}
+
+#newerTopicMessage p {
+	margin: 0;
+}
+
+#footer {
+	text-align: center;
+}
